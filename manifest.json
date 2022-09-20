@@ -1,0 +1,17 @@
+{
+    "manifest_version": 3,
+    "version": "1.0.0",
+    "name": "Amazon Link Generator",
+    "description": "Amazonの商品を短いリンクで共有したい時に。",
+    "background": {
+        "service_worker": "background.js",
+        "president": false
+    },
+    "permissions": [
+        "scripting",
+        "contextMenus"
+    ],
+    "host_permissions": [
+        "https://www.amazon.co.jp/*"
+    ]
+}
